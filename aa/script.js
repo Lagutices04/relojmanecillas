@@ -1,10 +1,14 @@
 const deg=6;
 //constante pa min y para seg
 const hora = document.querySelector('.hora');
+// es una constante llamada hora
+// busca un elemento html que coincida con el selector css en este caso es hora
+//se encuentra la funcion por lo tanto devolvera un elemento element 
 const minutos = document.querySelector('.minuto');
 const segundos = document.querySelector('.segundo');
 //guarda las cosas como si fuera un arreglo
 setInterval(()=>{
+    //JavaScript se utiliza para ejecutar una función específica periódicamente en un intervalo de tiempo específico.
 
     let tiempo = new Date();
     //captura tiiempo interno
